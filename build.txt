@@ -1,0 +1,2 @@
+cl imgui_impl_glfw.cpp imgui_impl_opengl3.cpp glad.c imgui*.cpp glfw3.lib opengl32.lib /MD /Zi /nologo /c
+lib *obj /out:imgui_lib.lib
